@@ -1,0 +1,15 @@
+{
+  "name": "@zbryikt/openai",
+  "version": "0.0.1",
+  "description": "a simple wrapper of openai Web API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zbryikt",
+  "license": "ISC",
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}

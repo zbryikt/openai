@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+bin=./node_modules/.bin
+mkdir -p dist
+
+for file in image chat index; do
+  $bin/lsc -cbp --no-header src/$file.ls > dist/$file.js
+done
